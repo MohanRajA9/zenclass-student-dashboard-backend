@@ -6,7 +6,7 @@ import { auth } from "../middleware/auth.js";
 const router = express.Router();
 
 
-router.get("/getAllTasks", async function(req,res){
+router.get("/getAllTasks", auth, async function(req,res){
     const coursesData = await client.db("zenStudentDashboard").collection("tasks").find().sort({_id : 1}).toArray();
     res.send(coursesData);
 })
@@ -46,7 +46,7 @@ router.put("/postTaskSolutions/:taskDetails", async function(req,res){
 })
 
 
-router.get("/userTasks/:userId", async function(req,res){
+router.get("/userTasks/:userId", auth, async function(req,res){
     const {userId} = req.params;
     const userDetails = await client.db("zenStudentDashboard").collection("users").find({_id : ObjectId(userId)}).toArray();
     const userTasks = userDetails[0].tasksCompleted;
