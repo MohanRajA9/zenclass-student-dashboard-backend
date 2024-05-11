@@ -32,7 +32,7 @@ export const courseData = [
      {
         "course" : "NODE JS",
          "coverPage" : "https://andrewbeeken.co.uk/wp-content/uploads/2018/11/nodejs.jpg?w=816",
-         "courseURL" : "https://www.youtube.com/embed/qz0aGYrrlhU",
+         "courseURL" : "https://www.youtube.com/watch?v=TlB_eWDSMt4&t=495s",
          "description" : "Node.js is an open-source and cross-platform runtime environment for executing JavaScript code outside a browser. You need to remember that NodeJS is not a framework and it's not a programming language. Most people are confused and understand it's a framework or a programming language."
      },
      {
