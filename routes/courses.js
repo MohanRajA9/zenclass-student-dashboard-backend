@@ -6,7 +6,7 @@ import { auth } from "../middleware/auth.js";
 const router = express.Router();
 
 //Route for getting all the courses
-router.get("/getAllCourses", async function(req,res){
+router.get("/getAllCourses", auth, async function(req,res){
     const coursesData = await client.db("zenStudentDashboard").collection("courses").find().toArray();
     res.send(coursesData);
 })
