@@ -43,56 +43,12 @@ export const courseData = [
     }
 ]
 
-// const courseDataDummy = [
-//     {
-//        "course" : "HTML",
-//         "coverPage" : "https://tse1.mm.bing.net/th/id/OIP.DFQ5RvH7YoayuVPeAFiWogHaEo?pid=ImgDet&rs=1",
-//         "courseURL" : "https://www.youtube.com/embed/N8YMl4Ezp4g",
-//         "description" : "HTML is the language behind every website on the Internet! It's a markup language used to define the structure and content of web pages. It's the first language you need to learn if you want to become a web developer."
-//     },
-//     {
-//         "course" : "CSS",
-//          "coverPage" : "https://codecondo.com/wp-content/uploads/2014/03/11-Background-CSS-Pattern-Generators.jpg",
-//          "courseURL" : "https://www.youtube.com/embed/r1xBCi5SOjw",
-//          "description" : "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media."
-//      },
-//      {
-//         "course" : "JAVA SCRIPT",
-//          "coverPage" : "https://tse1.mm.bing.net/th/id/OIP.ZEu_2nVjitpB-jhLRgfn4AHaEK?pid=ImgDet&rs=1",
-//          "courseURL" : "https://www.youtube.com/embed/XIOLqoPHCJ4",
-//          "description" : "JavaScript is the world most popular lightweight, interpreted compiled programming language. It is also known as scripting language for web pages. It is well-known for the development of web pages, many non-browser environments also use it. JavaScript can be used for Client-side developments as well as Server-side developments"
-//      },
-//      {
-//         "course" : "REACT JS",
-//          "coverPage" : "https://wallpaperaccess.com/full/3949100.png",
-//          "courseURL" : "https://www.youtube.com/embed/w7ejDZ8SWv8",
-//          "description" : "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. ReactJS is an open-source, component-based front-end library responsible only for the view layer of the application. It is maintained by Facebook."
-//      },
-//      {
-//         "course" : "MONGO DB",
-//          "coverPage" : "https://www.flynerd.pl/wp-content/uploads/2020/11/mongoDB_podstawy.png",
-//          "courseURL" : "https://www.youtube.com/embed/-56x56UppqQ",
-//          "description" : "MongoDB, the most popular NoSQL database, is an open-source document-oriented database. The term NoSQL means non-relational. It means that MongoDB isn't based on the table-like relational database structure but provides an altogether different mechanism for storage and retrieval of data. This format of storage is called BSON ( similar to JSON format). "
-//      },
-//      {
-//         "course" : "NODE JS",
-//          "coverPage" : "https://tse4.mm.bing.net/th/id/OIP.ri547X8343ggZrqjx56UWAHaEK?pid=ImgDet&rs=1",
-//          "courseURL" : "https://www.youtube.com/embed/qz0aGYrrlhU",
-//          "description" : "Node.js is an open-source and cross-platform runtime environment for executing JavaScript code outside a browser. You need to remember that NodeJS is not a framework and it's not a programming language. Most people are confused and understand it's a framework or a programming language."
-//      },
-//      {
-//         "course" : "Express JS",
-//         "coverPage" : "https://codecondo.com/wp-content/uploads/2015/10/Express-Frameworks_805.pngs",
-//         "courseURL" : "https://www.youtube.com/watch?v=SccSCuHhOw0",
-//         "description" : "Express.js is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features. It makes it easier to organize your application’s functionality with middleware and routing. It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects."
-//     }
-// ]
 
 
 export const classesData = [
     {
         "day" : "Day-01",
-        "date" : "29/04/2024",
+        "date" : "06/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Hyper Text Markup Language",
         "KeyAreas" : ["HTML Elements","HTML Attributes","HTML Headings","HTML Formatting Elements", "HTML Tags", "HTML Forms"],
@@ -102,7 +58,7 @@ export const classesData = [
     },
     {
         "day" : "Day-02",
-        "date" : "30/04/2024",
+        "date" : "07/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Cascading Style Sheets",
         "KeyAreas" : ["CSS Syntax","Selectors","Box Model","CSS Flex", "CSS Grid", "CSS Position Properties"],
@@ -112,7 +68,7 @@ export const classesData = [
     },
     {
         "day" : "Day-03",
-        "date" : "01/05/2024",
+        "date" : "08/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Java Script",
         "KeyAreas" : ["JS Syntax","var, let & const","Operators","Functions", "Objects", "Classes"],
@@ -122,7 +78,7 @@ export const classesData = [
     },
     {
         "day" : "Day-04",
-        "date" : "02/05/2024",
+        "date" : "09/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Java Script",
         "KeyAreas" : ["API calls","Promise","fetch","async & await", "DOM"],
@@ -132,7 +88,7 @@ export const classesData = [
     },
     {
         "day" : "Day-05",
-        "date" : "03/05/2024",
+        "date" : "10/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "React JS",
         "KeyAreas" : ["Why React","Componet","Functional Components","Hooks", "Life Cycle Methods", "React Router"],
@@ -142,7 +98,7 @@ export const classesData = [
     },
     {
         "day" : "Day-06",
-        "date" : "06/05/2024",
+        "date" : "13/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Mongo DB",
         "KeyAreas" : ["Data Base","Collections & documents","Advantages of Mongo DB","CRUD operations on Mongo DB", "Aggregation methods of Mongo DB"],
@@ -152,7 +108,7 @@ export const classesData = [
     },
     {
         "day" : "Day-07",
-        "date" : "07/05/2024",
+        "date" : "14/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Node JS & Express JS",
         "KeyAreas" : ["Server Architecture","fs commands","Express Setup","HTML Formatting Elements", "HTML Tags", "HTML Forms"],
