@@ -48,7 +48,7 @@ export const courseData = [
 export const classesData = [
     {
         "day" : "Day-01",
-        "date" : "29/04/2024",
+        "date" : "01/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Hyper Text Markup Language",
         "KeyAreas" : ["HTML Elements","HTML Attributes","HTML Headings","HTML Formatting Elements", "HTML Tags", "HTML Forms"],
@@ -58,7 +58,7 @@ export const classesData = [
     },
     {
         "day" : "Day-02",
-        "date" : "30/04/2024",
+        "date" : "02/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Cascading Style Sheets",
         "KeyAreas" : ["CSS Syntax","Selectors","Box Model","CSS Flex", "CSS Grid", "CSS Position Properties"],
@@ -68,7 +68,7 @@ export const classesData = [
     },
     {
         "day" : "Day-03",
-        "date" : "01/05/2024",
+        "date" : "03/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Java Script",
         "KeyAreas" : ["JS Syntax","var, let & const","Operators","Functions", "Objects", "Classes"],
@@ -78,7 +78,7 @@ export const classesData = [
     },
     {
         "day" : "Day-04",
-        "date" : "02/05/2024",
+        "date" : "04/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Java Script",
         "KeyAreas" : ["API calls","Promise","fetch","async & await", "DOM"],
@@ -88,7 +88,7 @@ export const classesData = [
     },
     {
         "day" : "Day-05",
-        "date" : "03/05/2024",
+        "date" : "06/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "React JS",
         "KeyAreas" : ["Why React","Componet","Functional Components","Hooks", "Life Cycle Methods", "React Router"],
@@ -98,7 +98,7 @@ export const classesData = [
     },
     {
         "day" : "Day-06",
-        "date" : "06/05/2024",
+        "date" : "07/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Mongo DB",
         "KeyAreas" : ["Data Base","Collections & documents","Advantages of Mongo DB","CRUD operations on Mongo DB", "Aggregation methods of Mongo DB"],
@@ -108,7 +108,7 @@ export const classesData = [
     },
     {
         "day" : "Day-07",
-        "date" : "07/05/2024",
+        "date" : "08/05/2024",
         "time" : "10:00 AM - 12:30 PM",
         "classTopic" : "Node JS & Express JS",
         "KeyAreas" : ["Server Architecture","fs commands","Express Setup","HTML Formatting Elements", "HTML Tags", "HTML Forms"],
