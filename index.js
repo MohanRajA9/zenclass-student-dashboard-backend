@@ -67,7 +67,7 @@ app.use("/tasks",tasksRouter);
 app.use("/count",countRouter);
 
 
-await client.db("zenStudentDashboard").collection("courses").insertMany(courseData);
+// await client.db("zenStudentDashboard").collection("courses").insertMany(courseData);
 // await client.db("zenStudentDashboard").collection("tasks").insertMany(taskData);
 // await client.db("zenStudentDashboard").collection("classes").insertMany(classesData);
 
