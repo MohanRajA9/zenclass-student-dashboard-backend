@@ -21,7 +21,7 @@ router.post("/postQuery",async function (req,res){
 
 router.delete("/:id", async function (req, res) {
     const {id} = req.params
-    const result = await client.db("firstDatabase").collection("products").deleteOne({_id: ObjectId(id)});
+    const result = await client.db("firstDatabase").collection("queries").deleteOne({_id: ObjectId(id)});
     res.send(result);
 } )
 
