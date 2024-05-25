@@ -8,6 +8,7 @@ import { classesRouter } from "./routes/classes.js";
 import { tasksRouter } from "./routes/tasks.js";
 import { classesData, courseData, queriesData, taskData, } from "./data.js";
 import { countRouter } from "./routes/count.js";
+import { queriesRouter } from "./routes/queries.js";
 
 const app = express();
 dotenv.config(); 
@@ -44,12 +45,14 @@ app.use("/users",userRouter);
 app.use("/classes",classesRouter);
 app.use("/tasks",tasksRouter);
 app.use("/count",countRouter);
+app.use("/queries",queriesRouter);
+
 
 
 // await client.db("zenStudentDashboard").collection("courses").insertMany(courseData);
 // await client.db("zenStudentDashboard").collection("tasks").insertMany(taskData);
 // await client.db("zenStudentDashboard").collection("classes").insertMany(classesData);
-await client.db("zenStudentDashboard").collection("queries").insertMany(queriesData);
+// await client.db("zenStudentDashboard").collection("queries").insertMany(queriesData);
 
 
 app.listen(port,()=>console.log(`App has started in port ${port}`));
