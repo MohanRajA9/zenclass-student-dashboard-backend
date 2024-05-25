@@ -2,7 +2,7 @@ import express from "express";
 import { client } from "../index.js";
 import {ObjectId} from "mongodb";
 import { auth } from "../middleware/auth.js";
-import { createQuery } from "./helper.js";
+import { createQuery, deleteQuery } from "./helper.js";
 
 const router = express.Router();
 
@@ -18,5 +18,11 @@ router.post("/postQuery",async function (req,res){
     const result = await createQuery({heading,description,status,time});
     res.send(result);
 })
+
+router.delete("/:id", async function (req, res) {
+    const {id} = req.params
+    const result = await deleteQuery(id);
+    res.send(result);
+} )
 
 export const queriesRouter = router;
