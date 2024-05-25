@@ -7,3 +7,7 @@ export async function getUserByName(email) {
 export async function createUSer(data) {
 return await client.db("zenStudentDashboard").collection("users").insertOne(data);
 }
+
+export async function createQuery(data) {
+  return await client.db("zenStudentDashboard").collection("queries").insertOne(data);
+  }
