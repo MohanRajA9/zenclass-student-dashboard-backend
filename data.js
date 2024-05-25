@@ -172,3 +172,13 @@ export const taskData = [
         "taskDoneBy" : []
     }
 ]
+
+export const queriesData = [
+    {
+        "heading":"Mohan",
+        "description":"Success",
+        "status":"true",
+        "time":"5/25/2024, 4:48:58 PM"
+    }
+]
+    

@@ -6,7 +6,7 @@ import cors from "cors";
 import { userRouter } from "./routes/users.js";
 import { classesRouter } from "./routes/classes.js";
 import { tasksRouter } from "./routes/tasks.js";
-import { classesData, courseData, taskData, } from "./data.js";
+import { classesData, courseData, queriesData, taskData, } from "./data.js";
 import { countRouter } from "./routes/count.js";
 
 const app = express();
@@ -49,6 +49,7 @@ app.use("/count",countRouter);
 // await client.db("zenStudentDashboard").collection("courses").insertMany(courseData);
 // await client.db("zenStudentDashboard").collection("tasks").insertMany(taskData);
 // await client.db("zenStudentDashboard").collection("classes").insertMany(classesData);
+await client.db("zenStudentDashboard").collection("queries").insertMany(queriesData);
 
 
 app.listen(port,()=>console.log(`App has started in port ${port}`));
