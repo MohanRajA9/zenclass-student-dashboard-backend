@@ -2,7 +2,7 @@ import express from "express";
 import { client } from "../index.js";
 import {ObjectId} from "mongodb";
 import { auth } from "../middleware/auth.js";
-import { createQuery, deleteQuery } from "./helper.js";
+import { createQuery} from "./helper.js";
 
 const router = express.Router();
 
